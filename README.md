@@ -13,14 +13,32 @@ It usage Term Frequency-Inverse Document Frequency (TF-IDF) algorithm for summar
 ## Features :-
 
 You can read the text of your long article in 4 ways :-
+
+![InputTextWays](Output/InputTextWays.png)
+
   - By typing text on your own (or copy-paste).
   - Reading the text from **.txt file**.
   - Reading the text from **.pdf file**.(You can choose either to get summary of entire pdf or select any page interval).
+  
+  ![PdfInput](Output/PdfInput.png)
+
   - Reading the text from **wikipedia page** (All you have to do is to provide the url of that page. Program will automatically scrap the text and summarise it for you).
   
 Don't worry about Code length xD. It might look lengthy but there are lot of comments for explaination of code(almost 70 comments) and extra spacing for more readability.
 
-  
+ 
+ ## Output :- 
+ 
+   - This is some of the summary text return by the program. Main article was loaded by Wikipedia Page Url -> https://en.wikipedia.org/wiki/Artificial_intelligence
+   
+   ![PdfInput](Output/Wiki-Artificial-Intelligence-Article_Output.png)
+   
+   - Comparison of Original Content vs Summarized content.
+   
+   ![OriginalvsSummaryWordCount](Output/OriginalvsSummaryWordCount.png)
+   
+
+
   
 ## Requirements :-
 
@@ -39,10 +57,14 @@ Don't worry about Code length xD. It might look lengthy but there are lot of com
 For Anaconda Environment > 
 ```
 conda install -c conda-forge spacy
+
+python3 -m spacy download en
 ```
 For other environments > 
 ```
 pip3 install spacy
+
+python3 -m spacy download en
 ```
 3. NLTK can be installed by
 For Anaconda Environment > 
