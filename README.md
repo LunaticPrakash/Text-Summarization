@@ -1,5 +1,5 @@
 # Text-Summarization
-Using Spacy and NLTK module with Tf-Idf algorithm for text-summarisation. This code will give you the summary of inputted article. You can input the text by typing (or copy-paste) or from Txt file, PDF file or from Wikipedia Page Url.
+Using Spacy and NLTK module with TF-IDF algorithm for text-summarisation. This code will give you the summary of inputted article. You can input the text by typing (or copy-paste) or from Txt file, PDF file or from Wikipedia Page Url.
 
 ## Purpose :- 
 
