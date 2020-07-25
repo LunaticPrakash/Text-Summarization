@@ -10,6 +10,10 @@ import nltk
 from nltk.stem import WordNetLemmatizer 
 import spacy
 
+
+#Execute this line if you are running this code for first time
+nltk.download('wordnet')
+
 #Initializing few variable
 nlp = spacy.load('en_core_web_sm')
 lemmatizer = WordNetLemmatizer() 
