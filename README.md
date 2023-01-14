@@ -14,13 +14,13 @@ It usage Term Frequency-Inverse Document Frequency (TF-IDF) algorithm for summar
 
 You can read the text of your long article in 4 ways :-
 
-![InputTextWays](Output/InputTextWays.png)
+![InputTextWays](https://user-images.githubusercontent.com/56812557/212475484-5bd0addf-1b14-4820-b4e2-b21565de8b71.png)
 
   - By typing text on your own (or copy-paste).
   - Reading the text from **.txt file**.
   - Reading the text from **.pdf file**.(You can choose either to get summary of entire pdf or select any page interval).
   
-  ![PdfInput](Output/PdfInput.png)
+  ![PdfInput](https://user-images.githubusercontent.com/56812557/212475479-d012f433-8ebd-4283-9c18-c1ebf552accf.png)
 
   - Reading the text from **wikipedia page** (All you have to do is to provide the url of that page. Program will automatically scrap the text and summarise it for you).
   
@@ -31,11 +31,11 @@ Don't worry about Code length xD. It might look lengthy but there are lot of com
  
    - This is some of the summary text return by the program. Main article was loaded by Wikipedia Page Url -> https://en.wikipedia.org/wiki/Artificial_intelligence
    
-   ![PdfInput](Output/Wiki-Artificial-Intelligence-Article_Output.png)
+   ![Summary](https://user-images.githubusercontent.com/56812557/212475483-5fe99afd-5016-428e-877d-e1e0b9406786.png)
    
    - Comparison of Original Content vs Summarized content.
    
-   ![OriginalvsSummaryWordCount](Output/OriginalvsSummaryWordCount.png)
+   ![OriginalvsSummaryWordCount](https://user-images.githubusercontent.com/56812557/212475485-d06beadf-1805-49e2-a906-a2745d06b832.png)
    
 
 
